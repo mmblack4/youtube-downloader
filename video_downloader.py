@@ -7,6 +7,6 @@ vid=video.streams.all()
 for i in video.streams.all():
 	print(str(opt)+". "+str(i))
 	opt=opt+1
-vid=vid[int(input("enter num:"))]
+vid=vid[int(input("enter number:"))]
 path=input("Enter the path:")
 vid.download(path)
